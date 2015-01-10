@@ -227,7 +227,14 @@ for(var i = 0; i < num2; i++){
 //Write a function that is given arr1 and arr2 is it's only arguments. Return the array which is longest.
 
   //Code Here
-
+var arrs = function () {
+  if (arr1.length < arr2.length) {
+    return arr2;
+  }
+  else {
+    return arr1;
+  };
+};
 
 /*As a continuation of the previous problem, write another function called 'both'.
   Your 'both' function will be given two arguments, arr1 and arr2 (from the previous example)
