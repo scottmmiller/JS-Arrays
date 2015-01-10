@@ -235,6 +235,7 @@ var arrs = function () {
     return arr1;
   };
 };
+arrs();
 
 /*As a continuation of the previous problem, write another function called 'both'.
   Your 'both' function will be given two arguments, arr1 and arr2 (from the previous example)
@@ -242,3 +243,14 @@ var arrs = function () {
 */
 
   //Code Here
+var both = function () {
+  var newArray = [];
+  for (var i = 0; i < arr1.length; i++) {
+    newArray.concat(arr1[i]);
+  };
+  for (var i = 0; i <arr2.length; i++) {
+    newArray.concat(arr2[i]);
+  };
+      return newArray;
+};
+both();
