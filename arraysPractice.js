@@ -236,7 +236,7 @@ var arrs = function () {
     return arr2;
   }
   else {
-    return arr1;
+    return ar
   };
 };
 arrs();
