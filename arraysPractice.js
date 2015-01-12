@@ -69,6 +69,10 @@ var evenFinder = function () {
 evenFinder();
 nums
 
+//OR
+  // for(var i = nums.length - 1; i >=0; i--)
+  //   starts at the end & works backwards;
+
 //Next problem
 
 
@@ -246,10 +250,10 @@ arrs();
 var both = function () {
   var newArray = [];
   for (var i = 0; i < arr1.length; i++) {
-    newArray.concat(arr1[i]);
+    newArray.push(arr1[i]);
   };
   for (var i = 0; i <arr2.length; i++) {
-    newArray.concat(arr2[i]);
+    newArray.push(arr2[i]);
   };
       return newArray;
 };
